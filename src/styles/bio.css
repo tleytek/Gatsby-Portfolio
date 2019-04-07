@@ -1,0 +1,4 @@
+.bioContainer {
+  grid-area: bio;
+  display: grid;
+}

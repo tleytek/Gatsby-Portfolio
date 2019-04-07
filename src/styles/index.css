@@ -1,0 +1,16 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 960px 1fr;
+  grid-template-rows: 724px 724px 724px 50px;
+  grid-template-areas:
+    "splash splash splash"
+    "bio bio bio"
+    "projects projects projects"
+    "footer footer footer";
+}
+
+@media (max-width: 960px) {
+  .gridContainer {
+    grid-template-columns: 1fr 100% 1fr;
+  }
+}
