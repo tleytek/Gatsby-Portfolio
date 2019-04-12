@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  width: 100vw;
+  background-color: #397062;
+  position: fixed;
+  top: 0;
+}
+
+.navContainer {
+  display: flex;
+  width: 960px;
+}

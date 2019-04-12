@@ -1,0 +1,4 @@
+.projectsContainer {
+  display: grid;
+  grid-area: projects;
+}
