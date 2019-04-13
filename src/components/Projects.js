@@ -22,7 +22,7 @@ const Projects = () => {
         }
       `}
       render={data => (
-        <div>
+        <div className={"projectsContainer"}>
           {/* {console.log(data)} */}
           {data.site.siteMetadata.projects.map(project => {
             return (
